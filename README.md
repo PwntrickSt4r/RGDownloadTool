@@ -25,7 +25,7 @@ All downloads are automatically saved to a "tmp" folder in the script directory.
 
 The downloaded archives are encrypted by the original server provider (RG-Adguard).
 
-Password: ms_by_rgadguard
+**Password: ms_by_rgadguard**
 
 Why: This is the standard password used by RG-Adguard to protect original Microsoft archives from being flagged or deleted by hosting services.
 
