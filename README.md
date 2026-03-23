@@ -9,6 +9,17 @@ Clean alternative to "RG-Adguard Files Project" scripts. Lightweight, open-sourc
 ![How to Get UUID](Screenshots/preview.gif)
 https://files.rg-adguard.net/
 
+# Installation
+Download the latest RGDownloadTool.zip from the Releases section.
+
+Extract the archive to any folder on your drive.
+
+Ensure the binaries folder is located in the same directory as RGDownloadTool.cmd.
+
+Run RGDownloadTool.cmd to start.
+
+All downloads are automatically saved to a "tmp" folder in the script directory.
+
 # Archive Password
 
 The downloaded archives are encrypted by the original server provider (RG-Adguard).
