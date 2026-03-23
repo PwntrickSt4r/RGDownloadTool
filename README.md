@@ -7,7 +7,8 @@ Clean alternative to "RG-Adguard Files Project" scripts. Lightweight, open-sourc
 
 # How To Get UUID:
 ![How to Get UUID](Screenshots/preview.gif)
-https://files.rg-adguard.net/
+------------------------------
+Website: https://files.rg-adguard.net/
 
 # Installation
 Download the latest RGDownloadTool.zip from the Releases section.
