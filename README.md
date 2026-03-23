@@ -8,6 +8,17 @@ Clean alternative to "RG-Adguard Files Project" scripts. Lightweight, open-sourc
 # How To Get UUID:
 ![How to Get UUID](Screenshots/preview.gif)
 https://files.rg-adguard.net/
+
+# Archive Password
+
+The downloaded archives are encrypted by the original server provider (RG-Adguard).
+
+Password: ms_by_rgadguard
+
+Why: This is the standard password used by RG-Adguard to protect original Microsoft archives from being flagged or deleted by hosting services.
+
+Note: Use 7-Zip or WinRAR to extract the files using this password.
+
 # Disclaimer:
 - **Use at your own risk:** I am not responsible for any data loss or system damage.
 - **No Affiliation:** This project is NOT affiliated with Microsoft or RG-Adguard.
