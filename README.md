@@ -43,4 +43,6 @@ RG-Adguard — For providing the original Windows file lists and server infrastr
 
 Tatsuhiro Tsujikawa — For the amazing aria2c download engine.
 
+Igor Pavlov - For the lightweight "7za" archivator.
+
 Open Source Community — For keeping x86 software alive!
