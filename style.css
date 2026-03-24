@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Google Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.main-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+	
+    border-radius: 60px;
+    
+    border-radius: 28% 28% 28% 28% / 28% 28% 28% 28%;
+    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+   
+    transition: transform 0.3s ease;
+}
+
+.main-logo:hover {
+    transform: scale(1.05);
+}
+
+html, body, a, button, input, select, textarea, .floating-icon {
+    cursor: none !important;
+}
+
+#custom-cursor {
+    width: 32px;
+    height: 32px;
+    background-image: url('cursor.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.1s ease-out;
+}
+
+.changelog-box {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    
+    margin-bottom: 80px; 
+}
+
+@media (max-width: 480px) {
+    .changelog-box h2 {
+        font-size: 1rem;
+    }
+    .update-item p {
+        font-size: 0.85rem;
+    }
+}
+
+.changelog-box h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+}
+
+.changelog-content {
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.changelog-content::-webkit-scrollbar {
+    width: 5px;
+}
+.changelog-content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.update-item {
+    margin-bottom: 15px;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+}
+
+.update-item p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.floating-icon {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vw;
+    z-index: 1000;
+    display: block;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    perspective: 1000px;
+}
+
+.floating-icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+}
+
+
+@media (max-width: 600px) {
+    .floating-icon img {
+        width: 60px;
+        height: 60px;
+    }
+    .floating-icon {
+        bottom: 15px;
+        right: 15px;
+    }
+}

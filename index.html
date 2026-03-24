@@ -1,0 +1,48 @@
+<title>PwntrickSt4r  Website</title>
+<link rel="icon" type="image/png" href="favicon.png">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<div class="logo-container">
+    <img src="favicon.png" alt="Logo" class="main-logo">
+<div id="custom-cursor"></div>
+
+<script>
+    const cursor = document.querySelector('#custom-cursor');
+
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = (e.clientX - 0) + 'px';
+        cursor.style.top = (e.clientY - 0) + 'px';
+    });
+
+    document.addEventListener('mouseleave', () => {
+        cursor.style.display = 'none';
+    });
+    
+    document.addEventListener('mouseenter', () => {
+        cursor.style.display = 'block';
+    });
+</script>
+</div>
+
+<h1>Welcome to my website! This website is in a active development.</h1>
+<h2>Down there you can see the Changelog! That's cool :D</h2>
+
+<div class="changelog-box">
+    <h2>Changelog</h2>
+    <div class="changelog-content">
+        <div class="update-item">
+            <span class="date">23.03.2026</span>
+            <p>v1.0 — First Public Release of Project on GitHub</p>
+        </div>
+    </div>
+</div>
+
+<a href="https://github.com/PwntrickSt4r" target="_blank" class="floating-icon">
+    <img src="gitlogo.png" alt="Visit my GitHub">
+</a>
