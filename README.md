@@ -32,7 +32,6 @@ This password is not needed anymore, because since Version 1.1 batch file automa
 <hr>
 Why: This is the standard password used by RG-Adguard to protect original Microsoft archives from being flagged or deleted by hosting services.
 
-Note: Use 7-Zip or WinRAR to extract the files using this password.
 
 # Disclaimer:
 - **Use at your own risk:** I am not responsible for any data loss or system damage.
