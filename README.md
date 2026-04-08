@@ -1,6 +1,7 @@
 # RGDownloadTool
 Clean alternative to "RG-Adguard Files Project" scripts. Lightweight, open-source, and works perfectly on 32-bit (x86) systems.
-
+----
+**❗❗Attention❗❗ Script might give a false errors while downloading a file. Errors comes from the RG-Adguard's server. Just ignore them and proceed downloading.**
 # Screenshots:
 <img width="677" height="343" alt="Preview of UUID Entering process" src="https://raw.githubusercontent.com/PwntrickSt4r/RGDownloadTool/refs/heads/main/Screenshots/Shot1.PNG" />
 <img width="677" height="343" alt="Preview of downloading" src="https://raw.githubusercontent.com/PwntrickSt4r/RGDownloadTool/refs/heads/main/Screenshots/Shot2.PNG" />
